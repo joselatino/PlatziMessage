@@ -1,0 +1,22 @@
+.new-contact{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.new-contact__search{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+}
+.new-contact__search:active{
+  background-color: #78a924;
+  color: var(--font-color);
+}
+.new-contact__back-button{
+  margin-bottom: 40px;
+}
